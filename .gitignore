@@ -1,0 +1,11 @@
+node_modules/
+.next/
+.npm-cache/
+.chroma/
+.env
+.env.*
+!.env.example
+backend-fastapi/.env
+backend-fastapi/.venv/
+backend-fastapi/__pycache__/
+bin/yt-dlp.exe

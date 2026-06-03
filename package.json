@@ -1,0 +1,39 @@
+{
+  "name": "rag-video-demo",
+  "version": "1.0.0",
+  "description": "Full-stack LangChain RAG chatbot for comparing YouTube and Instagram Reels performance.",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "dev:frontend": "next dev",
+    "dev:api": "python -m uvicorn main:app --reload --port 8001",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@langchain/classic": "^1.0.34",
+    "@langchain/core": "^1.1.48",
+    "@langchain/openai": "^1.4.7",
+    "@langchain/textsplitters": "^1.0.1",
+    "lucide-react": "^1.17.0",
+    "next": "^16.2.6",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6",
+    "youtube-transcript": "^1.3.1",
+    "zod": "3.25.76"
+  },
+  "overrides": {
+    "zod": "3.25.76",
+    "postcss": "8.5.10"
+  },
+  "devDependencies": {
+    "@types/node": "25.9.1",
+    "@types/react": "19.2.15",
+    "typescript": "6.0.3"
+  }
+}
